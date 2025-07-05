@@ -221,6 +221,10 @@ GitHub Copilot can **dramatically speed up code reviews**, especially for **codi
 * Enforce your team’s naming rules
 * Ensure consistency across large codebases
 
+---
+
+> **Reference video:** 
+https://www.youtube.com/watch?v=dZ0_wHbTM5c&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=85
 
 ---
 
@@ -288,7 +292,7 @@ Use a clear prompt like this:
 
 **Copilot Suggestion (with `snake_case` from JSON)**
 
-![alt text](../images/img279.png)
+![alt text](/images/img279.png)
 
 
 **Notice:**
@@ -319,7 +323,7 @@ function_naming: camelCase
 
 **Copilot Suggestion (with `camelCase`)**
 
-![alt text](../images/img280.png)
+![alt text](/images/img280.png)
 
 ✔️ Adheres to:
 * Function name: `camelCase`
@@ -441,6 +445,9 @@ class BankAccount:
 | File-based Standard | ✅ JSON/YAML                            |
 | Learning from Past  | ❌ (Not persistent across sessions)     |
 
+---
+
+> **Reference video:** https://www.youtube.com/watch?v=s4Bl9q0SbUU&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=87
 
 ---
 
@@ -497,7 +504,7 @@ pylint sample.py
 ```
 
 **Sample Output:**
-![alt text](../images/img281.png)
+![alt text](/images/img281.png)
 
 ---
 
@@ -509,7 +516,7 @@ what does C0114: Missing module docstring (missing-module-docstring) mean?
 ```
 
 **Copilot Suggestion**:
-![alt text](../images/img282.png)
+![alt text](/images/img282.png)
 
 
 ---
@@ -639,9 +646,9 @@ ng lint
 
 **Sample Output:**
 
-![alt text](../images/img283.png)
+![alt text](/images/img283.png)
 
-![alt text](../images/img284.png)
+![alt text](/images/img284.png)
 
 ---
 
@@ -653,7 +660,7 @@ Explain why this Angular code reports "Missing lifecycle hook implementation: On
 ```
 
 **Copilot Output**:
-![alt text](../images/img285.png)
+![alt text](/images/img285.png)
 
 > This component declares that it implements `OnInit` but does not define the `ngOnInit()` method. You should implement `ngOnInit()` when using `OnInit`.
 
@@ -731,6 +738,9 @@ Errors drop from 24 to 18 or fewer. Repeat the Copilot-assisted fixes until you'
 | Add docstrings                   | "Add function and module-level docstrings"             |
 | Enforce strict typing in Angular | "Replace `any` with a specific type in this component" |
 
+---
+
+> **Reference video:**  https://www.youtube.com/watch?v=MnmR0UjqROQ&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=90
 
 ---
 
@@ -782,14 +792,14 @@ Errors drop from 24 to 18 or fewer. Repeat the Copilot-assisted fixes until you'
    - For Python code, use snake_case for function names.
    - Use docstrings for Python method documentation.
    ```
-  ![alt text](../images/img129.png)
+  ![alt text](/images/img129.png)
 
 ---
 
 ## **Step 4: Review Code with GitHub Copilot in VS Code**
 
 * **Open a Code File:** Open any C# or Python file you want to review.
-  ![alt text](../images/img130.png)
+  ![alt text](/images/img130.png)
 
 * **Select Code for Review:** Highlight the code segment you want Copilot to review.
   
@@ -797,10 +807,10 @@ Errors drop from 24 to 18 or fewer. Repeat the Copilot-assisted fixes until you'
 
    * Right-click the selected code.
    * Select **"Copilot: Review and Comment"**.
-     ![alt text](../images/img131.png)
+     ![alt text](/images/img131.png)
 
 * **Review Suggestions:**
-  ![alt text](../images/img132.png)
+  ![alt text](/images/img132.png)
 
    * GitHub Copilot will analyze the code and provide review comments based on the instructions you set.
    * It can suggest:
@@ -814,11 +824,11 @@ Errors drop from 24 to 18 or fewer. Repeat the Copilot-assisted fixes until you'
 ## **Step 5: Apply or Discard Copilot Suggestions**
 
 * **Review Each Suggestion:**
-  ![alt text](../images/img133.png)
+  ![alt text](/images/img133.png)
 
    * You can either **Accept, Modify, or Discard** each suggestion.
    
-   ![alt text](../images/img134.png)
+   ![alt text](/images/img134.png)
    * If a suggestion is helpful, click **"Accept"**.
    * If not, click **"Discard"**.
 
@@ -895,6 +905,10 @@ Errors drop from 24 to 18 or fewer. Repeat the Copilot-assisted fixes until you'
 
 ---
 
+> **Reference video:** https://www.youtube.com/watch?v=tL0gppE1Zc0&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=33
+
+---
+
 # **Build "She Inspires" Quote Generator**
 
 Here's a **step-by-step guide** to help you recreate the **"She Inspires" Quote Generator Web App** using **HTML**, **JavaScript**, **Tailwind CSS**, and **GitHub Copilot Agent**.
@@ -937,7 +951,7 @@ Here's a **step-by-step guide** to help you recreate the **"She Inspires" Quote 
 
 **Copilot Agent will automatically create:**
 
-![alt text](../images/img78.png)
+![alt text](/images/img78.png)
 
 * `index.html` – for structure
 * `app.js` – for quote fetching logic
@@ -1042,7 +1056,7 @@ body {
 2. Click **"Get Inspired"** and see the quote change.
 3. Use Developer Tools (F12) to inspect and debug if needed.
    
-![alt text](../images/img79.png)
+![alt text](/images/img79.png)
 
 ---
 
@@ -1051,6 +1065,10 @@ body {
 * Integrate a real quote API like [ZenQuotes](https://zenquotes.io/) or [TheySaidSo](https://theysaidso.com/)
 * Add a "Share on Twitter" button
 * Use localStorage to store favorite quotes
+
+---
+
+> **Reference video:** https://www.youtube.com/watch?v=IQq7X2vtuVA&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=24
 
 ---
 
@@ -1091,18 +1109,18 @@ GitHub Copilot Agent Mode is an advanced feature of GitHub Copilot available in 
    ```plaintext
    How do I create a new Angular application named "Market Dashboard"?
    ```
-   ![alt text](../images/img108.png)
+   ![alt text](/images/img108.png)
 
 4. Copilot will guide you through creating a new Angular project:
    * It will ask for CSS or styling preferences.
    * It will handle the Angular project scaffolding.
-     ![alt text](../images/img109.png)
+     ![alt text](/images/img109.png)
      
    **Choose Stylesheet Format:**
 
    * Use the **arrow keys** on your keyboard to navigate the options.
    * Select **Sass (SCSS)** by pressing **Enter**.
-     ![alt text](../images/img110.png)
+     ![alt text](/images/img110.png)
 
    **Angular Project Creation:**
 
@@ -1114,10 +1132,10 @@ GitHub Copilot Agent Mode is an advanced feature of GitHub Copilot available in 
      ✔ Angular project "Market Dashboard" created successfully.
      ```  
      
-     ![alt text](../images/img111.png)
+     ![alt text](/images/img111.png)
 
 5. Once the project is created:
-     ![alt text](../images/img112.png)
+     ![alt text](/images/img112.png)
    * Close the current folder.
    * Open the newly created Angular project folder.
 
@@ -1137,13 +1155,13 @@ GitHub Copilot Agent Mode is an advanced feature of GitHub Copilot available in 
    ```bash
    ng start
    ```
-   ![alt text](../images/img113.png)
+   ![alt text](/images/img113.png)
 
-   ![alt text](../images/img114.png)
+   ![alt text](/images/img114.png)
 
 4. The application should open on `http://localhost:4200` with the default Angular welcome screen.
 
-   ![alt text](../images/img115.png)
+   ![alt text](/images/img115.png)
 ---
 
 ### **Step 4: Enabling GitHub Copilot Agent Mode for Development**
@@ -1152,7 +1170,7 @@ GitHub Copilot Agent Mode is an advanced feature of GitHub Copilot available in 
 2. Go to the **Copilot Edits** section.
 3. Switch to **"Agent Mode"**.
 4. Ensure the **Cloud AI Model** is selected.
-   ![alt text](../images/img116.png)
+   ![alt text](/images/img116.png)
 
 ---
 
@@ -1170,13 +1188,13 @@ GitHub Copilot Agent Mode is an advanced feature of GitHub Copilot available in 
    * Create an Angular Service (`MarketDataService`) to fetch data from this file.
    * Create a `MarketDashboard` component to display the data.
    * Set up routing and add a navigation link to the dashboard.
-     ![alt text](../images/img117.png)
+     ![alt text](/images/img117.png)
 
 ---
 
 ## **Step 6: Reviewing the Generated Code**
    
-![alt text](../images/img118.png)
+![alt text](/images/img118.png)
 
 1. Check the `market-share.json` file in the `src/assets` folder.
 2. Review the `MarketDataService` service:
@@ -1201,7 +1219,7 @@ GitHub Copilot Agent Mode is an advanced feature of GitHub Copilot available in 
 2. Navigate to the Market Dashboard using the link in the navigation bar.
 3. Verify that:
    
-     ![alt text](../images/img119.png)
+     ![alt text](/images/img119.png)
    * The pie chart and bar chart display the market share data.
    * The charts are interactive and properly styled.
 
@@ -1219,7 +1237,7 @@ GitHub Copilot Agent Mode is an advanced feature of GitHub Copilot available in 
    Make the pie chart display percentage values for each segment.
    ```
 3. Copilot will update the chart logic accordingly.
-   ![alt text](../images/img120.png)
+   ![alt text](/images/img120.png)
 
 ---
 
@@ -1234,6 +1252,10 @@ GitHub Copilot Agent Mode is an advanced feature of GitHub Copilot available in 
 ## **Conclusion**
 
 You have successfully used GitHub Copilot's Agent Mode to create and refine an Angular Market Share Dashboard. This powerful feature allows you to iterate, detect, and fix errors automatically, streamlining the development process.
+
+---
+
+> **Reference video:** https://www.youtube.com/watch?v=YeZOQVF9j_U&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=30
 
 ---
 
@@ -1277,7 +1299,7 @@ GitHub Copilot is an AI-powered tool that can help you quickly generate code. In
 1. Open `index.html`.
 2. Type the following prompt for Copilot:
    **Prompt:** "Create a simple landing page with a navbar, a hero section with text on the left and an image on the right."
-   ![alt text](../images/img181.png)
+   ![alt text](/images/img181.png)
 
 3. Review the generated HTML and make adjustments as needed.
 
@@ -1396,7 +1418,7 @@ GitHub Copilot is an AI-powered tool that can help you quickly generate code. In
 1. Open `styles.css`.
 2. Use the following prompt:
    **Prompt:** "Style the landing page with a dark purple and black theme. Align text on the left and image on the right."
-   ![alt text](../images/img182.png)
+   ![alt text](/images/img182.png)
 
 3. Review the CSS generated by Copilot.
 
@@ -1487,7 +1509,7 @@ nav ul li a:hover {
     max-width: 400px;
     width: 100%;
     border-radius: 16px;
-    box-shadow: 0 8px 32px rgba(30, 20, 60, 0.4);
+    box-shadow: 0 8px 32px rgba(0, 20, 60, 0.4);
 }
 
 @media (max-width: 900px) {
@@ -1514,7 +1536,7 @@ nav ul li a:hover {
 ## **Step 4: Testing and Refining the Page**
 
 1. Open the `index.html` file in your browser.
-   ![alt text](../images/img183.png)
+   ![alt text](/images/img183.png)
 
 2. Make sure the layout looks as expected.
 3. If needed, use Copilot to further refine the layout and design.
@@ -1567,14 +1589,14 @@ In this guide, we will explore how to leverage GitHub Copilot in VS Code to quic
 
 3. Copilot will suggest the following code:
 
-   ![alt text](../images/img213.png)
+   ![alt text](/images/img213.png)
 
 4. Save and run the code using the terminal:
 
    ```bash
    python dashboard.py
    ```
-   ![alt text](../images/img214.png)
+   ![alt text](/images/img214.png)
 
 ---
 
@@ -1595,7 +1617,7 @@ In this guide, we will explore how to leverage GitHub Copilot in VS Code to quic
 
    plot_sales_by_product(data)
    ```
-   ![alt text](../images/img215.png)
+   ![alt text](/images/img215.png)
 
 3. Adjust the column name if it doesn't match your CSV data.
 
@@ -1650,7 +1672,7 @@ In this guide, we will explore how to leverage GitHub Copilot in VS Code to quic
 
    create_dashboard(data)
    ```
-   ![alt text](../images/img216.png)
+   ![alt text](/images/img216.png)
 
 ---
 
@@ -1672,6 +1694,10 @@ In this guide, we will explore how to leverage GitHub Copilot in VS Code to quic
 ## **Conclusion**
 
 In this guide, we learned how to quickly build a sales dashboard using GitHub Copilot in VS Code, leveraging its code generation capabilities to create, fix, and organize multiple charts.
+
+---
+
+> **Reference video:** https://www.youtube.com/watch?v=8X3sqYibWFE&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=60
 
 ---
 
@@ -1846,7 +1872,7 @@ def calculate_area(radius):
 
 **Copilot Suggestion:**
 
-![alt text](../images/img217.png)
+![alt text](/images/img217.png)
 
 ---
 
@@ -1863,7 +1889,7 @@ def calculate_area(radius):
 
 **Copilot Suggestion:**
 
-![alt text](../images/img218.png)
+![alt text](/images/img218.png)
 
 ```python
 def factorial(n):
@@ -1884,7 +1910,7 @@ def factorial(n):
 
 **Copilot Suggestion:**
 
-![alt text](../images/img219.png)
+![alt text](/images/img219.png)
 ```python
 from pymongo import MongoClient
 
@@ -1927,7 +1953,7 @@ function isEven(num) {
 ```
 
 **Copilot will suggest an improved version of the function**
-![alt text](../images/img220.png)
+![alt text](/images/img220.png)
 
 ---
 
@@ -2162,7 +2188,7 @@ GitHub Copilot is an AI-powered code completion tool that assists with code gene
 * **Prompt:** "How do I enable GitHub Copilot in CLI?"
   
 * **Copilot Suggestion:** "Use the command: `gh extension install github/copilot-cli`"
-  ![alt text](../images/img242.png)
+  ![alt text](/images/img242.png)
 
 ---
 
@@ -2177,12 +2203,12 @@ GitHub Copilot can generate and assist with Kubernetes commands directly from th
    ```
 2. Copilot Suggestion:
 
-   ![alt text](../images/img243.png)
+   ![alt text](/images/img243.png)
 
 ### **Advanced Usage - Revising Commands**
 * **Prompt:** "Revise the command to include resource limits."
 * **Copilot Suggestion:**
-  ![alt text](../images/img244.png)
+  ![alt text](/images/img244.png)
 
 ---
 
@@ -2193,7 +2219,7 @@ GitHub Copilot can generate and assist with Kubernetes commands directly from th
 * **Prompt:** "Generate a script to set up a Minikube cluster with 3 nodes."
   
 * **Copilot Suggestion:**
-   ![alt text](../images/img245.png)
+   ![alt text](/images/img245.png)
 
 ---
 
@@ -2204,12 +2230,12 @@ GitHub Copilot can generate and assist with Kubernetes commands directly from th
 * **Prompt:** "Generate a Helm chart for a MySQL database."
 
 * **opilot Suggestion:**
-   ![alt text](../images/img246.png)
+   ![alt text](/images/img246.png)
 
 ### **Customizing Helm Values**
 * **Prompt:** "Customize Helm values for persistent storage."
 * **Copilot Suggestion:**
-  ![alt text](../images/img247.png)
+  ![alt text](/images/img247.png)
 
 ---
 
@@ -2277,6 +2303,9 @@ GitHub Copilot can generate and assist with Kubernetes commands directly from th
 GitHub Copilot is a powerful tool for automating Kubernetes tasks. With its AI-driven suggestions, you can accelerate your workflow, minimize errors, and focus on higher-level tasks. Experiment with different prompts to unlock its full potential.
 
 ---
+> **Reference video:** https://www.youtube.com/watch?v=4kB3Sg-Gkwc&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=71
+
+---
 
 # **GitHub Copilot Billing 6 Nov 2023**
 
@@ -2319,7 +2348,7 @@ Here's a **step-by-step detailed guide with tables** summarizing the **GitHub Co
 
 ## **Copilot Business Billing Example**
 
-![alt text](../images/img286.png)
+![alt text](/images/img286.png)
 
 
 | Scenario                           | Action Date | Billing Impact                                         |
@@ -2353,7 +2382,7 @@ Here's a **step-by-step detailed guide with tables** summarizing the **GitHub Co
 
 ## **Azure Subscription Integration**
 
-![alt text](../images/img287.png)
+![alt text](/images/img287.png)
 
 ### **Use Case:**
 
@@ -2362,7 +2391,7 @@ Here's a **step-by-step detailed guide with tables** summarizing the **GitHub Co
 
 ### **Billing Cycle Change:**
 
-![alt text](../images/img288.png)
+![alt text](/images/img288.png)
 
 | Action                              | Old Billing Cycle | New Billing Cycle                       |
 | ----------------------------------- | ----------------- | --------------------------------------- |
@@ -2392,4 +2421,9 @@ Here's a **step-by-step detailed guide with tables** summarizing the **GitHub Co
 2. **Plan Removals:** Remove users just before the billing date to avoid paying full month.
 3. **Azure Billing:** Use Azure for unified cost tracking if you already use Microsoft services.
 4. **License Right-Sizing:** Adjust license counts monthly based on project needs.
+
+---
+> **Reference video:** https://www.youtube.com/watch?v=QzhX78GSZOk&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=91
+
+---
 

@@ -101,7 +101,7 @@ def calculate_area(radius):
 
 **Copilot Suggestion:**
 
-![alt text](../images/img217.png)
+![alt text](/images/img217.png)
 
 ---
 
@@ -118,7 +118,7 @@ def calculate_area(radius):
 
 **Copilot Suggestion:**
 
-![alt text](../images/img218.png)
+![alt text](/images/img218.png)
 
 ```python
 def factorial(n):
@@ -139,7 +139,7 @@ def factorial(n):
 
 **Copilot Suggestion:**
 
-![alt text](../images/img219.png)
+![alt text](/images/img219.png)
 ```python
 from pymongo import MongoClient
 
@@ -182,7 +182,7 @@ function isEven(num) {
 ```
 
 **Copilot will suggest an improved version of the function**
-![alt text](../images/img220.png)
+![alt text](/images/img220.png)
 
 ---
 
@@ -208,6 +208,10 @@ function isEven(num) {
 ## **Conclusion**
 
 GitHub Copilot can significantly enhance your coding speed and efficiency. By using the right prompts and understanding how Copilot works, you can leverage its full potential.
+
+---
+
+> **Reference video:** https://www.youtube.com/watch?v=cCG9EBlBs14&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=64
 
 ---
 
@@ -242,7 +246,7 @@ Make sure you have:
 **Copilot Suggestion:**
 
 Copilot will respond with:
-![alt text](../images/img299.png)
+![alt text](/images/img299.png)
 
 * Notebook code including:
 
@@ -287,7 +291,7 @@ df
 ```
 
 **Ouput**
-![alt text](../images/img302.png)
+![alt text](/images/img302.png)
 
 
 
@@ -297,7 +301,7 @@ df['Polarity'] = df['Statement'].apply(lambda x: TextBlob(x).sentiment.polarity)
 df
 ```
 **Ouput**
-![alt text](../images/img301.png)
+![alt text](/images/img301.png)
 
 
 
@@ -322,7 +326,7 @@ plt.show()
 
 
 **output**
-![alt text](../images/img300.png)
+![alt text](/images/img300.png)
 
 ---
 
@@ -353,7 +357,7 @@ plt.show()
 ```
 
 **Output**
-![alt text](../images/img303.png)
+![alt text](/images/img303.png)
 
 ---
 
@@ -764,6 +768,9 @@ GitHub Copilot Chat isn't just an autocomplete tool - it's your **interactive AI
 
 ---
 
+> **Reference video:** https://www.youtube.com/watch?v=QptWTiFLUOE&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=100
+
+---
 # **New Way of Development**
 
 ## **Introduction**
@@ -900,6 +907,11 @@ GitHub Copilot Workspace is an extension of GitHub Copilot, providing a speciali
 GitHub Copilot Workspace is a powerful tool that can transform your development workflow. Whether you are building a new feature or making improvements, this tool can save you significant time while maintaining code quality.
 
 ---
+
+> **Referece video:** https://www.youtube.com/watch?v=W323mTVhsA4&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=65
+
+---
+
 
 # **GitHub Copilot and Generative AI**
 
@@ -1323,6 +1335,9 @@ describe('Email Validation', () => {
 ```
 
 ---
+> **Reference video:** https://www.youtube.com/watch?v=vA7MtzaDHfI&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=44 
+
+---
 
 # **Unveiling Context Variables in Chat**
 
@@ -1431,7 +1446,7 @@ Copilot will open that file virtually and summarize the contents, e.g.,:
 
 ---
 
-### **Step 3: Using `#file` for Specific Files**
+### 🔹 Step 3: Using `#file` for Specific Files**
 
 **File: `environment.ts`**
 
@@ -1556,6 +1571,9 @@ public void TestIsPrime() {
 These features help you **supercharge development** using **Copilot Chat** without leaving your flow.
 
 ---
+> **Reference video:** https://www.youtube.com/watch?v=hJIg8lGtIRU&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=76
+
+---
 
 # **GitHub Copilot Hints & Techniques**
 
@@ -1605,7 +1623,7 @@ class Program
 
 2. **Right-click on error in terminal > `GitHub Copilot: Explain this error`.**
 
-3. **Copilot Suggestion**:
+3. **Copilot Suggestion:**
 
    * Suggests: `using System.IO;`
    * Suggests looping with `foreach`
@@ -1745,6 +1763,10 @@ copilot-demo/
 | Extend Feature Prompting | “Add X functionality”                        | Copilot generates code in context |
 
 ---
+> **Reference video:** https://www.youtube.com/watch?v=-YCzDBBAX7w&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=94
+
+---
+
 
 # **GitHub Copilot Review Guidelines in VS Code**
 
@@ -1794,14 +1816,14 @@ copilot-demo/
    - For Python code, use snake_case for function names.
    - Use docstrings for Python method documentation.
    ```
-  ![alt text](../images/img129.png)
+  ![alt text](/images/img129.png)
 
 ---
 
 ## **Step 4: Review Code with GitHub Copilot in VS Code**
 
 * **Open a Code File:** Open any C# or Python file you want to review.
-  ![alt text](../images/img130.png)
+  ![alt text](/images/img130.png)
 
 * **Select Code for Review:** Highlight the code segment you want Copilot to review.
   
@@ -1809,10 +1831,10 @@ copilot-demo/
 
    * Right-click the selected code.
    * Select **"Copilot: Review and Comment"**.
-     ![alt text](../images/img131.png)
+     ![alt text](/images/img131.png)
 
 * **Review Suggestions:**
-  ![alt text](../images/img132.png)
+  ![alt text](/images/img132.png)
 
    * GitHub Copilot will analyze the code and provide review comments based on the instructions you set.
    * It can suggest:
@@ -1826,11 +1848,11 @@ copilot-demo/
 ## **Step 5: Apply or Discard Copilot Suggestions**
 
 * **Review Each Suggestion:**
-  ![alt text](../images/img133.png)
+  ![alt text](/images/img133.png)
 
    * You can either **Accept, Modify, or Discard** each suggestion.
    
-   ![alt text](../images/img134.png)
+   ![alt text](/images/img134.png)
    * If a suggestion is helpful, click **"Accept"**.
    * If not, click **"Discard"**.
 
@@ -1906,6 +1928,10 @@ copilot-demo/
 * Test your settings with different languages (Python, C#, JavaScript) to ensure they work as expected.
 
 ---
+> **Reference video:** https://www.youtube.com/watch?v=tL0gppE1Zc0&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=33
+
+---
+
 
 # **GitHub Copilot for Documentation 1**
 
@@ -1947,7 +1973,7 @@ GitHub Copilot is an AI-powered code assistant developed by GitHub, designed to 
   ```
 
   **After prompting Copilot, it generates:**
-  ![alt text](../images/img227.png)
+  ![alt text](/images/img227.png)
 
 ### **3.2 In-Line Code Comments**
 
@@ -1966,7 +1992,7 @@ GitHub Copilot is an AI-powered code assistant developed by GitHub, designed to 
 
   **After prompting Copilot, it generates:**
 
-  ![alt text](../images/img228.png)
+  ![alt text](/images/img228.png)
 
 ---
 
@@ -1991,7 +2017,7 @@ GitHub Copilot is an AI-powered code assistant developed by GitHub, designed to 
 
   **After prompting Copilot, it generates:**
 
-  ![alt text](../images/img229.png)
+  ![alt text](/images/img229.png)
 
 ### **4.2 External API Documentation**
 
@@ -2015,7 +2041,7 @@ GitHub Copilot is an AI-powered code assistant developed by GitHub, designed to 
   ```
 
 * **Copilot Suggestion**
-  ![alt text](../images/img230.png)
+  ![alt text](/images/img230.png)
 
 ---
 
@@ -2036,7 +2062,7 @@ GitHub Copilot is an AI-powered code assistant developed by GitHub, designed to 
   ```
 
 * **Copilot suggestion**
-  ![alt text](../images/img231.png)
+  ![alt text](/images/img231.png)
 
 ---
 
@@ -2051,6 +2077,10 @@ GitHub Copilot is an AI-powered code assistant developed by GitHub, designed to 
 ## **Conclusion**
 
 GitHub Copilot can greatly enhance your documentation process, saving time and improving code quality. This guide provides a comprehensive overview of how to leverage Copilot for various documentation needs, from simple functions to complex API endpoints.
+
+---
+
+> **Reference video:**https://www.youtube.com/watch?v=zjUvKQmhy9E&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=68
 
 ---
 
@@ -2358,6 +2388,10 @@ public class User {
 
 ---
 
+> **Reference video:**https://www.youtube.com/watch?v=decVqb2Qum4&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=96
+
+---
+
 # **GitHub Copilot Agent Mode for Auto-Generating Swagger Docs**
 
 ## **Introduction**
@@ -2381,14 +2415,14 @@ This guide will walk you through the process of using GitHub Copilot Agent Mode 
 1. Click the **"Code"** button in your GitHub repository.
 2. Select **"Open with Codespaces"**.
 3. Wait for the Codespace environment to launch.
-   ![alt text](../images/img53.png)
+   ![alt text](/images/img53.png)
 
 ## **Step 3: Enable GitHub Copilot Agent Mode**
 
 1. Inside your Codespace, click on the **GitHub Copilot panel** (usually on the right side).
 2. Choose **"Agent Mode"**.
 3. Select the model (GPT-4 or GPT-3.5) based on your preference.
-   ![alt text](../images/img54.png)
+   ![alt text](/images/img54.png)
 
 ## **Step 4: Generate Swagger Documentation**
 
@@ -2404,7 +2438,7 @@ This guide will walk you through the process of using GitHub Copilot Agent Mode 
    * Configure Swagger in `Program.cs` or `Startup.cs`.
    * Add XML documentation for controllers, methods, and model classes.
   
-     ![alt text](../images/img55.png)
+     ![alt text](/images/img55.png)
 
    * Created The workspace includes a RealEstateController class with two API endpoints: one for retrieving list of properties and another for retrieving a property by its ID
 
@@ -2423,7 +2457,7 @@ This guide will walk you through the process of using GitHub Copilot Agent Mode 
    ```
 2. Access the Swagger UI by navigating to `https://localhost:<port>/swagger` in your web browser.
 3. Verify that the API documentation is displayed correctly.
-   ![alt text](../images/img56.png)
+   ![alt text](/images/img56.png)
   
 ## **Step 7: Maintain Swagger Documentation**
 
@@ -2433,6 +2467,9 @@ This guide will walk you through the process of using GitHub Copilot Agent Mode 
 ## **Conclusion**
 
 By using GitHub Copilot Agent Mode, you can automate the process of generating and maintaining Swagger documentation for your .NET API. This approach not only saves time but also ensures consistent and well-documented APIs for your projects.
+
+---
+> **Reference video:** https://www.youtube.com/watch?v=GPtTdyC-gTs&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=18
 
 ---
 
@@ -2522,23 +2559,23 @@ GitHub Copilot Vision is an AI tool that allows developers to interact with visu
 **Example Prompt:**
 * Ask Copilot in your IDE
 
-![alt text](../images/img9.png)
+![alt text](/images/img9.png)
 
 
 **Copilot Output:**
 * Copilot generates a summary explaining components, flow, and interactions.
   
-![alt text](../images/img10.png)
+![alt text](/images/img10.png)
 
 **Example Prompt:**
 * Ask Copilot in your IDE
 
-![alt text](../images/img11.png)
+![alt text](/images/img11.png)
 
 
 **Copilot Output:**
 
-![alt text](../images/img12.png)
+![alt text](/images/img12.png)
 
 ### **Demo 2: Generate Class Files from Class Diagrams**
 
@@ -2546,17 +2583,17 @@ GitHub Copilot Vision is an AI tool that allows developers to interact with visu
 
 * **Upload UML class diagram**
 
-![alt text](../images/class-diagram.jpg)
+![alt text](/images/class-diagram.jpg)
 
 **Example Prompt:**
 
 * Ask Copilot in your IDE
 
-![alt text](../images/img13.png)
+![alt text](/images/img13.png)
 
 **Copilot Output:**
 
-![alt text](../images/img14.png)
+![alt text](/images/img14.png)
 
 
 ### **Demo 3: Generate APIs and Models from Use Case Diagrams**
@@ -2565,18 +2602,18 @@ GitHub Copilot Vision is an AI tool that allows developers to interact with visu
 
 * **Upload use case diagram showing actors and use cases**
 
-![alt text](../images/uml-usecase-diagram.jpg)
+![alt text](/images/uml-usecase-diagram.jpg)
 
 **Example Prompt:**
 
 * Ask Copilot in your IDE
 
-![alt text](../images/img15.png)
+![alt text](/images/img15.png)
 
 
 **Copilot Output:**
 
-![alt text](../images/img16.png)
+![alt text](/images/img16.png)
 
 ### **Demo 4: Data Modeling from ER Diagrams**
 
@@ -2584,18 +2621,18 @@ GitHub Copilot Vision is an AI tool that allows developers to interact with visu
 
 * **Upload ERD with entities and relationships**
 
-![alt text](../images/ER-Oder.png)
+![alt text](/images/ER-Oder.png)
 
 **Example Prompt:**
 
 * Ask Copilot in your IDE
 
-![alt text](../images/img17.png)
+![alt text](/images/img17.png)
 
 
 **Copilot Output:**
 
-![alt text](../images/img18.png)
+![alt text](/images/img18.png)
 
 ```sql
 CREATE SCHEMA Sales;
@@ -2616,7 +2653,7 @@ CREATE TABLE Sales.Products (
 
 #### **Network Topology Diagram**
 
-* **Upload AWS/Azure network diagram**
+* **Upload AWS/Azure network diagram** 
 
   ![alt text](<../images/aws web app network diagram.png>)
 
@@ -2624,11 +2661,11 @@ CREATE TABLE Sales.Products (
 
 * Ask Copilot in your IDE
 
-![alt text](../images/img19.png)
+![alt text](/images/img19.png)
 
 **Copilot Output:**
 
-![alt text](../images/img20.png)
+![alt text](/images/img20.png)
 
 ```hcl
 resource "aws_lambda_function" "api_backend" {
@@ -2643,17 +2680,17 @@ resource "aws_lambda_function" "api_backend" {
 
 * **Upload UI design (mockup, Figma export, sketch)**
 
-  ![alt text](../images/website.png)
+  ![alt text](/images/website.png)
 
 **Example Prompt:**
 
 * Ask Copilot in your IDE
 
-![alt text](../images/img21.png)
+![alt text](/images/img21.png)
 
 **Copilot Output:**
 
-![alt text](../images/img22.png)
+![alt text](/images/img22.png)
 
 ```html
 <!DOCTYPE html>
@@ -2666,43 +2703,44 @@ resource "aws_lambda_function" "api_backend" {
 </head>
 ```
 
-![alt text](../images/img23.png)
+
+![alt text](/images/img23.png)
 
 ### **Demo 8: Modify Existing Code Based on a Diagram**
 
 #### **Updated Component Diagram**
 
-* **Provide current code + updated diagram**
+* **Provide current code + updated diagram** 
 
-  ![alt text](../images/ER-Order-edited.png)
+  ![alt text](/images/ER-Order-edited.png)
 
 **Example Prompt:**
 
 * Ask Copilot in your IDE
 
-![alt text](../images/img24.png)
+![alt text](/images/img24.png)
 
 **Copilot Output:**
 
-![alt text](../images/img25.png)
+![alt text](/images/img25.png)
 
 ### **Demo 9: Hand-Drawn Diagram to Code**
 
 #### **Code Scaffolding and Suggestions**
 
-* **Upload a photo of a whiteboard sketch**
+* **Upload a photo of a whiteboard sketch** 
 
-  ![alt text](../images/architecture-drawing.jpg)
+  ![alt text](/images/architecture-drawing.jpg)
 
 **Example Prompt:**
 
 * Ask Copilot in your IDE
 
-![alt text](../images/img26.png)
+![alt text](/images/img26.png)
 
 **Copilot Output:**
 
-![alt text](../images/img27.png)
+![alt text](/images/img27.png)
 
 ---
 
@@ -2719,6 +2757,9 @@ resource "aws_lambda_function" "api_backend" {
 **Fostering Collaboration**
 
 * GitHub Copilot Vision encourages collaboration between designers and developers, bridging the gap in the development process.
+
+---
+> **Reference video:** https://www.youtube.com/watch?v=Zdpd1Bam91E&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=14
 
 ---
 
@@ -2937,6 +2978,8 @@ flowchart TD
   UserInteraction --> UpdateView
   UpdateView --> End
 ```
+---
+> **Reference video :** https://www.youtube.com/watch?v=cYbOGRRC9Zs&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=47
 
 ---
 
@@ -3364,3 +3407,8 @@ Sometimes you want to augment diagrams with notes about potential security vulne
 * Use diagrams as part of your project documentation to improve communication.
 * You can combine multiple diagram types in README or project docs for comprehensive design insights.
 
+---
+
+> **Reference video**: https://www.youtube.com/watch?v=MiZLwBsuEgw&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=63
+
+---

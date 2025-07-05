@@ -145,10 +145,10 @@ def test_divide():
      @workspace/setupTests
      ```
    - Select **pytest** from the available testing frameworks
-   ![alt text](../images/img135.png)
+   ![alt text](/images/img135.png)
 
    - Follow the configuration wizard to set up the test framework:
-   ![alt text](../images/img136.png)
+   ![alt text](/images/img136.png)
 
 2. **Run from Project Root:**
    ```powershell
@@ -157,7 +157,7 @@ def test_divide():
    ```
 
 3. **Expected Output:**
-   ![alt text](../images/img137.png)
+   ![alt text](/images/img137.png)
 
 ---
 
@@ -227,7 +227,7 @@ If you encounter import errors:
    pytest tests/
    ```
 
-   ![alt text](../images/img138.png)
+   ![alt text](/images/img138.png)
 
 ---
 
@@ -287,7 +287,7 @@ If you encounter import errors:
    pytest 
    ```
 
-   ![alt text](../images/img139.png)
+   ![alt text](/images/img139.png)
 
 ---
 
@@ -315,7 +315,7 @@ If you encounter import errors:
    coverage run -m pytest tests/
    coverage report -m
    ```
-   ![alt text](../images/img140.png)
+   ![alt text](/images/img140.png)
 
 ---
 
@@ -380,7 +380,7 @@ TDD is a software development methodology that follows three main steps:
 
 Copilot may generate a data-driven test method like this:
 
-![alt text](../images/img232.png)
+![alt text](/images/img232.png)
 
 ```csharp
 using Xunit;
@@ -413,7 +413,7 @@ public class PasswordValidatorTests
 
 ### **Copilot Suggestion**
 
-![alt text](../images/img233.png)
+![alt text](/images/img233.png)
 
 ```csharp
 public static class PasswordValidator
@@ -441,7 +441,7 @@ public static class PasswordValidator
   dotnet test
   ```
 * The tests should pass if the code is correctly written.
-  ![alt text](../images/img234.png)
+  ![alt text](/images/img234.png)
 ---
 
 ## **Step 4: Adding New Requirements and Refactoring**
@@ -476,6 +476,10 @@ Test-Driven Development (TDD) using GitHub Copilot can significantly speed up de
 * Use GitHub Copilot to write test cases.
 * Generate code that meets the test requirements.
 * Enhance and refactor code as new requirements are added.
+
+---
+> **Reference video:** https://www.youtube.com/watch?v=dr7vB5gBLj0&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=69
+
 
 ---
 
@@ -532,7 +536,7 @@ public static class PalindromeChecker
 
 **Copilot Suggestion**
 
-![alt text](../images/img294.png)
+![alt text](/images/img294.png)
 Copilot will auto-generate test cases for the method. For a `isPalindrome(string)` method, Copilot Chat generates:
 
 * A test for a valid palindrome.
@@ -556,7 +560,7 @@ If you're using a different framework (e.g., XUnit), prompt with:
 **Copilot Suggestion**
 This ensures compatibility with your test environment.
 
-![alt text](../images/img295.png)
+![alt text](/images/img295.png)
 
 
 ---
@@ -571,7 +575,7 @@ Write a unit test for non-prime input using xunit
 
 **Use prompt-based refinement for:**
 
-![alt text](../images/img296.png)
+![alt text](/images/img296.png)
 * Covering missing conditions.
 * Adding more edge cases.
 * Specifying mocking or exception handling.
@@ -663,7 +667,7 @@ After generating:
 ## **Coverage Check**
 
 After tests run:
-![alt text](../images/img297.png)
+![alt text](/images/img297.png)
 * Run with **coverage** to ensure all branches/conditions are tested.
 * Green lines in IntelliJ or VS Code indicate full coverage.
 
@@ -690,6 +694,9 @@ After tests run:
 | Data-driven test         | `/test generate data-driven test using theory` |
 | Java + Mockito           | `Add unit test using Mockito for method XYZ`   |
 | Fix failing test         | `Why is this test failing?`                    |
+
+---
+> **Reference video:** https://www.youtube.com/watch?v=i-hqpu7EOp8&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=95
 
 ---
 
@@ -1104,6 +1111,10 @@ Copilot also supports **Spring Boot**, **Node.js**, **Python**, and others for t
 | Class-level    | `// Add unit tests for Validator class` | All test methods generated   |
 
 ---
+> **Reference video:** https://www.youtube.com/watch?v=7C266My-w3Q&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=101
+
+
+---
 
 # **Kubernetes Automation with Generative AI using GitHub Copilot**
 
@@ -1160,7 +1171,7 @@ GitHub Copilot is an AI-powered code completion tool that assists with code gene
 * **Prompt:** "How do I enable GitHub Copilot in CLI?"
   
 * **Copilot Suggestion:** "Use the command: `gh extension install github/copilot-cli`"
-  ![alt text](../images/img242.png)
+  ![alt text](/images/img242.png)
 
 ---
 
@@ -1175,12 +1186,12 @@ GitHub Copilot can generate and assist with Kubernetes commands directly from th
    ```
 2. Copilot Suggestion:
 
-   ![alt text](../images/img243.png)
+   ![alt text](/images/img243.png)
 
 ### **Advanced Usage - Revising Commands**
 * **Prompt:** "Revise the command to include resource limits."
 * **Copilot Suggestion:**
-  ![alt text](../images/img244.png)
+  ![alt text](/images/img244.png)
 
 ---
 
@@ -1191,7 +1202,7 @@ GitHub Copilot can generate and assist with Kubernetes commands directly from th
 * **Prompt:** "Generate a script to set up a Minikube cluster with 3 nodes."
   
 * **Copilot Suggestion:**
-   ![alt text](../images/img245.png)
+   ![alt text](/images/img245.png)
 
 ---
 
@@ -1202,12 +1213,12 @@ GitHub Copilot can generate and assist with Kubernetes commands directly from th
 * **Prompt:** "Generate a Helm chart for a MySQL database."
 
 * **opilot Suggestion:**
-   ![alt text](../images/img246.png)
+   ![alt text](/images/img246.png)
 
 ### **Customizing Helm Values**
 * **Prompt:** "Customize Helm values for persistent storage."
 * **Copilot Suggestion:**
-  ![alt text](../images/img247.png)
+  ![alt text](/images/img247.png)
 
 ---
 
@@ -1273,6 +1284,9 @@ GitHub Copilot can generate and assist with Kubernetes commands directly from th
 
 ## **Conclusion**
 GitHub Copilot is a powerful tool for automating Kubernetes tasks. With its AI-driven suggestions, you can accelerate your workflow, minimize errors, and focus on higher-level tasks. Experiment with different prompts to unlock its full potential.
+
+---
+> **Reference video:** https://www.youtube.com/watch?v=4kB3Sg-Gkwc&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=71
 
 ---
 
@@ -1403,7 +1417,7 @@ GitHub Copilot Chat can now **understand context directly from GitHub and extern
 
 **1. Open a GitHub repository** with issues, discussions, or files.
 
-![alt text](../images/img29.png)
+![alt text](/images/img29.png)
 
 **2. Copy the URL** of:
 
@@ -1413,20 +1427,20 @@ GitHub Copilot Chat can now **understand context directly from GitHub and extern
 
 *Here I have opened the issue.*
 
-![alt text](../images/img28.png)
+![alt text](/images/img28.png)
 
 ---
 
 ### **Step 2: Paste the URL into Copilot Chat**
 
 * Go to **Copilot Chat** (on GitHub.com).
-  ![alt text](../images/img30.png)
+  ![alt text](/images/img30.png)
 
 * Paste the copied **URL**.
 
 * Ask Copilot something like:
 
-  ![alt text](../images/img31.png)
+  ![alt text](/images/img31.png)
 
   ```
   Explain what this issue is about.  
@@ -1434,7 +1448,7 @@ GitHub Copilot Chat can now **understand context directly from GitHub and extern
 
 * **Copilot will read the content** of the link and summarize it.
 
-  ![alt text](../images/img32.png)
+  ![alt text](/images/img32.png)
 
 ---
 
@@ -1447,7 +1461,7 @@ GitHub Copilot Chat can now **understand context directly from GitHub and extern
   ```
 
 * **Copilot Output:**
-  ![alt text](../images/img33.png)
+  ![alt text](/images/img33.png)
 
 ---
 
@@ -1457,7 +1471,7 @@ GitHub Copilot Chat can now **understand context directly from GitHub and extern
 
 **2. Ask Copilot:**
 
-   ![alt text](../images/img34.png)
+   ![alt text](/images/img34.png)
 
 **3. Copilot will use:**
 
@@ -1466,7 +1480,7 @@ GitHub Copilot Chat can now **understand context directly from GitHub and extern
    * And generate the implementation
    * It has implemented the license and contact details
 
-   ![alt text](../images/img36.png)
+   ![alt text](/images/img36.png)
 
 ---
 
@@ -1475,7 +1489,7 @@ GitHub Copilot Chat can now **understand context directly from GitHub and extern
 You can now include **external documentation or articles**:
 
 **1. Copy the URL of an article or style guide***
-  ![alt text](../images/img37.png)
+  ![alt text](/images/img37.png)
 
 **2. Ask Copilot:**
 
@@ -1484,7 +1498,7 @@ You can now include **external documentation or articles**:
   ```
 
 **3. Copilot will read the article and extract relevant patterns**
-  ![alt text](../images/img38.png)
+  ![alt text](/images/img38.png)
 
 ---
 
@@ -1498,11 +1512,13 @@ You can now include **external documentation or articles**:
   2. Paste article or doc link
   3. Open Copilot chat and ask Copilot chat to generate code
   4. Refine or implement based on suggestions
-     ![alt text](../images/img39.png)
+     ![alt text](/images/img39.png)
 
 * **Copilot Output:**
-  ![alt text](../images/img40.png)
+  ![alt text](/images/img40.png)
 
+---
+> **Reference video:** https://www.youtube.com/watch?v=QRZfR0TSmQ8&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=15
 
 ---
 
@@ -1528,13 +1544,13 @@ You can now include **external documentation or articles**:
    * Type "GitHub Copilot" in the search bar
    * Navigate to "GitHub Copilot Chat > Preview Features"
    * Check the box for "GitHub Copilot Chat Code Instructions"
-     ![alt text](../images/img143.png)
+     ![alt text](/images/img143.png)
 
    * Restart VS Code to apply changes
 
 ## **Step 2: Repository Setup**
 
-![alt text](../images/img144.png)
+![alt text](/images/img144.png)
 
 1. **Create Project Directory:**
    ```powershell
@@ -1557,7 +1573,7 @@ You can now include **external documentation or articles**:
 
 ## **Step 3: Creating Instruction Files**
 
-![alt text](../images/img145.png)
+![alt text](/images/img145.png)
 
 1. **Create Base Instructions File:**
    ```powershell
@@ -1644,11 +1660,11 @@ You can now include **external documentation or articles**:
    ```python
    # "Create a function to calculate the area of a circle"
    ```
-   ![alt text](../images/img146.png)
+   ![alt text](/images/img146.png)
    
 
 3. **Verify Generated Code:**
-   ![alt text](../images/img147.png)
+   ![alt text](/images/img147.png)
 
    * Check if docstrings are present
    * Verify naming conventions
@@ -1695,6 +1711,11 @@ You can now include **external documentation or articles**:
 
 ---
 
+> **Reference video:** https://www.youtube.com/watch?v=J8yiJizRFyw&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=36
+
+
+---
+
 # **Crafting a Webpage with HTML & CSS**
 
 ## **Introduction**
@@ -1735,7 +1756,7 @@ GitHub Copilot is an AI-powered tool that can help you quickly generate code. In
 1. Open `index.html`.
 2. Type the following prompt for Copilot:
    **Prompt:** "Create a simple landing page with a navbar, a hero section with text on the left and an image on the right."
-   ![alt text](../images/img181.png)
+   ![alt text](/images/img181.png)
 
 3. Review the generated HTML and make adjustments as needed.
 
@@ -1854,7 +1875,7 @@ GitHub Copilot is an AI-powered tool that can help you quickly generate code. In
 1. Open `styles.css`.
 2. Use the following prompt:
    **Prompt:** "Style the landing page with a dark purple and black theme. Align text on the left and image on the right."
-   ![alt text](../images/img182.png)
+   ![alt text](/images/img182.png)
 
 3. Review the CSS generated by Copilot.
 
@@ -1972,7 +1993,7 @@ nav ul li a:hover {
 ## **Step 4: Testing and Refining the Page**
 
 1. Open the `index.html` file in your browser.
-   ![alt text](../images/img183.png)
+   ![alt text](/images/img183.png)
 
 2. Make sure the layout looks as expected.
 3. If needed, use Copilot to further refine the layout and design.
@@ -1982,6 +2003,10 @@ nav ul li a:hover {
 ## **Conclusion**
 
 GitHub Copilot can significantly speed up the process of building web pages. With the right prompts, you can create, style, and enhance your webpage efficiently. Use it as a coding assistant to build better designs.
+
+---
+
+> **Reference video:** https://www.youtube.com/watch?v=4TH8IdVe1UA&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=52 
 
 ---
 
@@ -2016,7 +2041,7 @@ Make sure you have:
 **Copilot Suggestion:**
 
 Copilot will respond with:
-![alt text](../images/img299.png)
+![alt text](/images/img299.png)
 
 * Notebook code including:
 
@@ -2061,7 +2086,7 @@ df
 ```
 
 **Ouput**
-![alt text](../images/img302.png)
+![alt text](/images/img302.png)
 
 
 
@@ -2071,7 +2096,7 @@ df['Polarity'] = df['Statement'].apply(lambda x: TextBlob(x).sentiment.polarity)
 df
 ```
 **Ouput**
-![alt text](../images/img301.png)
+![alt text](/images/img301.png)
 
 
 
@@ -2096,7 +2121,7 @@ plt.show()
 
 
 **output**
-![alt text](../images/img300.png)
+![alt text](/images/img300.png)
 
 ---
 
@@ -2127,7 +2152,7 @@ plt.show()
 ```
 
 **Output**
-![alt text](../images/img303.png)
+![alt text](/images/img303.png)
 
 ---
 
@@ -2291,3 +2316,8 @@ GitHub Copilot Chat can:
 * **Quickly iterate** on changes like exception handling, logging, testing
 * **Empower non-experts** to create functional ML or Java apps easily
 
+---
+
+> **Reference video:** https://www.youtube.com/watch?v=c8sU7FwI7r4&list=PLIPPtc5KlYDPDBmDjBCDJt-5Zcdq3tG86&index=99
+
+---

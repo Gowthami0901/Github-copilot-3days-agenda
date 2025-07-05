@@ -1,4 +1,6 @@
-# Github copilot agenda - Day 1
+# Github copilot agenda
+
+## Day 1
 
 ## Foundations & Mindset Shift
 
@@ -16,29 +18,30 @@
 
 ### Copilot + Prompt Engineering
 
-* [10 Must-Know GitHub Copilot Tips to Save Time in VS Code]
-* [Unveiling Context Variables in Chat]
-* [Github Copilot Hints & Techniques]
+* [10 Must-Know GitHub Copilot Tips to Save Time in VS Code](#10-must-know-github-copilot-tips-to-save-time-in-vs-code)
+* [Unveiling Context Variables in Chat](#unveiling-context-variables-in-chat)
+* [GitHub Copilot Hints & Techniques](#github-copilot-hints--techniques)
 
 ### Misconceptions in AI-assisted Coding
 
-* [Gitub Copilot Hints & Techniques]
-* [GitHub Copilot and Generative AI](#GitHub-Copilot-and-Generative-AI)
-* [GitHub Copilot Review Guidelines in VS Code]
+* [GitHub Copilot Hints & Techniques](#github-copilot-hints--techniques)
+* [GitHub Copilot and Generative AI](#github-copilot-and-generative-ai)
+* [GitHub Copilot Review Guidelines in VS Code](#github-copilot-review-guidelines-in-vs-code)
 
-## Documentation- First Development 
+### Documentation-First Development
 
-* [GitHub Copilot for Documentation 1]
-* [GitHub Copilot for Documentation 2]
-* [GitHub Copilot Agent Mode for Auto-Generating Swagger Docs]
-
-## Slides & Diagrams
-
-* [Turn Diagrams into Code]
-* [GitHub Copilot Mermaid Chart Extension]
-* [Generating Software Design Diagrams Using GitHub Copilot]
+* [GitHub Copilot for Documentation 1](#github-copilot-for-documentation-1)
+* [GitHub Copilot for Documentation 2](#github-copilot-for-documentation-2)
+* [GitHub Copilot Agent Mode for Auto-Generating Swagger Docs](#github-copilot-agent-mode-for-auto-generating-swagger-docs)
 
 
+### Slides & Diagrams
+
+* [Turn Diagrams into Code](#turn-diagrams-into-code)
+* [GitHub Copilot Mermaid Chart Extension](#github-copilot-mermaid-chart-extension)
+* [Generating Software Design Diagrams Using GitHub Copilot](#generating-software-design-diagrams-using-github-copilot)
+
+---
 
 # **Journey with AI Companion**
 
@@ -898,7 +901,7 @@ GitHub Copilot Workspace is a powerful tool that can transform your development 
 
 ---
 
-# **GitHub Copilot and Generative AI*
+# **GitHub Copilot and Generative AI**
 
 ## **Introduction**
 
